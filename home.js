@@ -8,4 +8,4 @@ let price = 49.99,
     discounted = true;
 
 showMessage(productName);
-console.log(productName);
+console.log(productName); 
