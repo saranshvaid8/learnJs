@@ -8,4 +8,4 @@ let price = 49.99,
     message = `Welcome to ${productName}`,
     discounted = true;
 
-showMessage(message);
+    (price > 100) ? showMessage(message): showMessage("No");
